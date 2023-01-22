@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		E2E728CC2972AF5000DC04F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E728CB2972AF5000DC04F4 /* AppDelegate.swift */; };
 		E2E728CE2972AF5000DC04F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E728CD2972AF5000DC04F4 /* SceneDelegate.swift */; };
-		E2E728D02972AF5000DC04F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E728CF2972AF5000DC04F4 /* ViewController.swift */; };
 		E2E728D32972AF5000DC04F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E728D12972AF5000DC04F4 /* Main.storyboard */; };
 		E2E728D52972AF5200DC04F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2E728D42972AF5200DC04F4 /* Assets.xcassets */; };
 		E2E728D82972AF5200DC04F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2E728D62972AF5200DC04F4 /* LaunchScreen.storyboard */; };
+		E2E728E02972B22900DC04F4 /* PersonsListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E728DF2972B22900DC04F4 /* PersonsListTableViewController.swift */; };
+		E2FF1E66297D1408004FA4C4 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF1E65297D1408004FA4C4 /* PersonDetailsViewController.swift */; };
+		E2FF1E68297D1451004FA4C4 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF1E67297D1451004FA4C4 /* Person.swift */; };
+		E2FF1E6C297D16E2004FA4C4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF1E6B297D16E2004FA4C4 /* DataManager.swift */; };
+		E2FF1E6E297D2092004FA4C4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF1E6D297D2092004FA4C4 /* TabBarViewController.swift */; };
+		E2FF1E70297D21C1004FA4C4 /* SectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FF1E6F297D21C1004FA4C4 /* SectionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E2E728C82972AF5000DC04F4 /* PersonsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2E728CB2972AF5000DC04F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2E728CD2972AF5000DC04F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E2E728CF2972AF5000DC04F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2E728D22972AF5000DC04F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2E728D42972AF5200DC04F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2E728D72972AF5200DC04F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2E728D92972AF5200DC04F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2E728DF2972B22900DC04F4 /* PersonsListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListTableViewController.swift; sourceTree = "<group>"; };
+		E2FF1E65297D1408004FA4C4 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		E2FF1E67297D1451004FA4C4 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		E2FF1E6B297D16E2004FA4C4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		E2FF1E6D297D2092004FA4C4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E2FF1E6F297D21C1004FA4C4 /* SectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +66,18 @@
 		E2E728CA2972AF5000DC04F4 /* PersonsList */ = {
 			isa = PBXGroup;
 			children = (
+				E2FF1E65297D1408004FA4C4 /* PersonDetailsViewController.swift */,
 				E2E728CB2972AF5000DC04F4 /* AppDelegate.swift */,
 				E2E728CD2972AF5000DC04F4 /* SceneDelegate.swift */,
-				E2E728CF2972AF5000DC04F4 /* ViewController.swift */,
 				E2E728D12972AF5000DC04F4 /* Main.storyboard */,
+				E2FF1E6F297D21C1004FA4C4 /* SectionTableViewController.swift */,
+				E2FF1E6D297D2092004FA4C4 /* TabBarViewController.swift */,
+				E2E728DF2972B22900DC04F4 /* PersonsListTableViewController.swift */,
 				E2E728D42972AF5200DC04F4 /* Assets.xcassets */,
 				E2E728D62972AF5200DC04F4 /* LaunchScreen.storyboard */,
 				E2E728D92972AF5200DC04F4 /* Info.plist */,
+				E2FF1E67297D1451004FA4C4 /* Person.swift */,
+				E2FF1E6B297D16E2004FA4C4 /* DataManager.swift */,
 			);
 			path = PersonsList;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2E728D02972AF5000DC04F4 /* ViewController.swift in Sources */,
+				E2FF1E68297D1451004FA4C4 /* Person.swift in Sources */,
+				E2FF1E6C297D16E2004FA4C4 /* DataManager.swift in Sources */,
+				E2FF1E66297D1408004FA4C4 /* PersonDetailsViewController.swift in Sources */,
 				E2E728CC2972AF5000DC04F4 /* AppDelegate.swift in Sources */,
+				E2FF1E6E297D2092004FA4C4 /* TabBarViewController.swift in Sources */,
+				E2E728E02972B22900DC04F4 /* PersonsListTableViewController.swift in Sources */,
+				E2FF1E70297D21C1004FA4C4 /* SectionTableViewController.swift in Sources */,
 				E2E728CE2972AF5000DC04F4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
